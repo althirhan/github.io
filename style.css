@@ -1,0 +1,228 @@
+body {
+    background-color: whitesmoke;
+    font-family: 'DM Sans 14pt';
+    margin: 0%;
+}
+/*header*/
+header {
+    background-color: #ffd992;
+    padding: 10px;
+}
+
+header .logodanteks img {
+    width: 75px;
+    height: 75  px;
+    margin-right: 10px;
+}
+
+header .logodanteks {
+    display: flex;
+    align-items: center;
+}
+
+header .logodanteks div {
+    margin-left: 0px;
+}
+
+header .logodanteks div h1 {
+    font-size: 20px;
+}
+header .logodanteks div h2 {
+    font-size: 15px;
+}
+
+header nav {
+    margin-top: 10px;
+}
+
+header nav ul {
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+header nav ul li {
+    margin: 0%;
+    text-decoration: none;
+    list-style: none;
+    font-size: 15px;
+}
+header nav ul li a {
+    margin: 0px;
+}
+/*header*/
+
+section {
+    background-color:aquamarine;
+    padding: 10px;
+    margin: 10px;
+    text-align:center;
+    border-radius: 25px;
+}
+
+button {
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.jurusan div {
+    display: flex;
+    gap:10px;
+    margin:10px;
+}
+
+.jurusan article {
+    background-color:whitesmoke;
+    border-radius: 15px;
+    height: fit-content;
+    min-height: 200px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.jurusan article h4 {
+    margin: 10px;
+}
+
+.berita {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.berita article {
+    background-color:whitesmoke;
+    border-radius: 15px;
+    height: max-content;
+    width:95%;
+    padding: 10px;
+    display: flex;
+    margin: 10px;
+    text-align: left;
+    gap: 10px;
+}
+
+.berita article img {
+    width: 133px;
+    height: 100px;
+}
+
+.galeri div {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.galeri img {
+    width: 300px;
+}
+
+.galeri article p {
+    gap: 0px;
+    margin: 0px;
+}
+
+.kontak article ul li {
+    margin:0px;
+    text-decoration: none;
+    list-style: none;
+    font-size: 15px;
+}
+
+.kontak article ul {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.visimisi ol {
+    text-align: left;
+    line-height: 120%;
+}
+
+.profil-sekolah1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profil-sekolah1 .masking {
+    width: 90%;
+    border-radius: 16px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profil-sekolah1 .masking img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profilsekolah-jurusan article img {
+    width: 450px;
+    margin: 10px;
+}
+
+.profilsekolah-jurusan article {
+    text-align: left;
+}
+
+.profilsekolah-jurusan article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.program-keahlian p {
+    text-align:justify;
+}
+
+.program-keahlian ul {
+    text-align:justify;
+}
+
+.informasi_berita article img {
+    width: 100px;
+    height: max-content;
+}
+
+.informasi_berita article {
+    background-color:navajowhite;
+    border-radius: 16px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.informasi_berita article div {
+    text-align: left;
+}
+
+.informasi_pengumuman div {
+    text-align: left;
+}
+
+.informasi_agenda div {
+    text-align: left;
+}
+
+.kontak_hubungikami article div {
+    text-align: left;
+}
+.kontak_lokasi div {
+    text-align: left;
+}
